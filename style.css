@@ -1,0 +1,62 @@
+h1 {
+  display: block;
+  color: blue;
+  margin: auto;
+}
+
+span {
+  display: none;
+}
+.display_span {
+  display: inline-block;
+  height: 1.8ch;
+  animation-name: animate;
+  animation-duration: 4s;
+  padding-right: 1ch;
+}
+@keyframes animate {
+  0% {
+    max-width: 0ch;
+    overflow: hidden;
+  }
+  10% {
+    max-width: 1ch;
+    overflow: hidden;
+  }
+  20% {
+    max-width: 2ch;
+    overflow: hidden;
+  }
+  30% {
+    max-width: 3ch;
+    overflow: hidden;
+  }
+  40% {
+    max-width: 4ch;
+    overflow: hidden;
+  }
+  50% {
+    max-width: 5ch;
+    overflow: hidden;
+  }
+  60% {
+    max-width: 6ch;
+    overflow: hidden;
+  }
+  70% {
+    max-width: 7ch;
+    overflow: hidden;
+  }
+  80% {
+    max-width: 8ch;
+    overflow: hidden;
+  }
+  90% {
+    max-width: 9ch;
+    overflow: hidden;
+  }
+  100% {
+    max-width: 10ch;
+    overflow: hidden;
+  }
+}
